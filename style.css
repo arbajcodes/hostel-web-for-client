@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('image/gymback.jpg');
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    color: #fff;
+    letter-spacing:6px;
+}
+.bit{
+    color: red;
+}
+
+.nav-section{
+    display: flex;
+    gap: 38px;
+    align-items: center; 
+    justify-content: space-between;
+    transition: all 1s;
+}
+nav ul li{
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    list-style: none;
+    font-size: small;
+    margin-left: 30px;
+    
+}
+
+nav ul li:hover{
+    color: #c01a1a;
+}
+.btn{
+    border: none;
+    padding: 8px 14px ;
+    color: #fff;
+    background-color: red;
+    font-size: small;
+    border-radius: 6px;
+}
+
+.btn:hover{
+   
+    background-color: #f54343;
+    color: #222;
+
+}
+
+.content{
+    width: 60vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 21%;
+    /* padding-right: px; */
+}
+
+p{
+    letter-spacing: 25px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    font-size: xxx-large;
+}
+h2{
+    letter-spacing: 25px;
+    font-weight: bold;
+    /* padding-bottom: 2px; */
+    font-size: xxx-large;
+}
+.limits{
+    color: #ff0000;
+}
